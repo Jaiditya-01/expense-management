@@ -61,6 +61,7 @@ function App() {
                 </ProtectedRoute>
               } />
               
+              {/* For the admin file */}
               <Route path="/admin" element={
                 <ProtectedRoute allowedRoles={['Admin']}>
                   <Layout>
